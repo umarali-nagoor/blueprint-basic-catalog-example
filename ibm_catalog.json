@@ -1,0 +1,16 @@
+{
+    "name": "blueprint-basic-example",
+    "version": "0.0.1",
+    "flavors": [
+        {
+            "label": "Variation1",
+            "name": "variation1",
+            "working_directory": "catalog/variation1"
+        },
+        {
+            "label": "Variation2",
+            "name": "variation2",
+            "working_directory": "catalog/variation2"
+        },
+    ]
+}
