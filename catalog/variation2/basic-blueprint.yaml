@@ -35,10 +35,10 @@ modules:
     source:
       source_type: ibm_cloud_catalog
       catalog:
-        catalog_id: "8fb26034-9f24-4a42-b843-a3623affe877"
-        offering_name: "blueprint-example-modules-0.0.1-ibm-storage"
+        catalog_id: "3e4ee65b-52c9-44a8-855a-3ea386185750"
+        offering_name: "blueprint-basic-catalog-example"
         offering_version: "0.0.5"
-        offering_version_flavour_name: "Standard"
+        offering_version_flavour_name: "IBM Storage"
     inputs:
       - name: cos_instance_name
         value: $blueprint.cos_instance_name
