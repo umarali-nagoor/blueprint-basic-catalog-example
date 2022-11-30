@@ -9,7 +9,7 @@ inputs:
   - name: cos_storage_plan
 outputs:
   - name: cos_id
-    value: $module.basic-cos-storage.outputs.cos_id
+    value: $module.basic-cos-storage-variation2.outputs.cos_id
 settings:
   - name: TF_VERSION
     value: 1.0
@@ -47,7 +47,7 @@ modules:
       - name: cos_single_site_loc
         value: "ams03"
       - name: resource_group_id
-        value: $module.basic-resource-group.outputs.resource_group_id
+        value: $module.basic-resource-group-variation2.outputs.resource_group_id
     injectors:
       - tft_git_url: "https://github.com/Cloud-Schematics/tf-templates"
         tft_name: "ibm"
