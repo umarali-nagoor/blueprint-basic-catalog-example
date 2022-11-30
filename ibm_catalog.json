@@ -11,6 +11,6 @@
             "label": "Variation2",
             "name": "variation2",
             "working_directory": "catalog/variation2"
-        },
+        }
     ]
 }
