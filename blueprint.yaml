@@ -1,1 +1,4 @@
-
+name: "blueprint-basic-catalog-example"
+schema_version: "1.0.0"
+type: "blueprint"
+description: "Blueprint Basic Example"
