@@ -17,10 +17,12 @@ modules:
   - name: basic-resource-group-variation2
     module_type: terraform
     source:
-      source_type: github
-      git:
-        git_repo_url: "https://github.com/Cloud-Schematics/blueprint-example-modules/tree/main/IBM-ResourceGroup"
-        git_branch: main
+      source_type: ibm_cloud_catalog
+      catalog:
+        catalog_id: "3e4ee65b-52c9-44a8-855a-3ea386185750"
+        offering_name: "blueprint-basic-example"
+        offering_version: "0.0.6"
+        offering_version_flavour_name: "ibm-resourcegroup"
     inputs:
       - name: provision
         value: $blueprint.provision_rg
