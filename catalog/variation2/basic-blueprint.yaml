@@ -17,7 +17,7 @@ modules:
   - name: basic-resource-group-variation2
     module_type: terraform
     source:
-      source_type: ibm_cloud_catalog
+      source_type: catalog
       catalog:
         catalog_id: "3e4ee65b-52c9-44a8-855a-3ea386185750"
         offering_name: "blueprint-basic-example"
@@ -35,7 +35,7 @@ modules:
     layer: DB
     module_type: terraform
     source:
-      source_type: ibm_cloud_catalog
+      source_type: catalog
       catalog:
         catalog_id: "3e4ee65b-52c9-44a8-855a-3ea386185750"
         offering_name: "blueprint-basic-example"
