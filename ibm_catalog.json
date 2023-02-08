@@ -13,8 +13,8 @@
             "working_directory": "catalog/variation2"
         },
         {
-            "label": "Variation3",
-            "name": "variation3 prod",
+            "label": "Variation3 Prod",
+            "name": "variation3",
             "working_directory": "catalog/variation3"
         }
     ]
