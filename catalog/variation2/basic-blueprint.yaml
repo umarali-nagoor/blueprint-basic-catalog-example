@@ -19,9 +19,9 @@ modules:
     source:
       source_type: catalog
       catalog:
-        catalog_id: "3e4ee65b-52c9-44a8-855a-3ea386185750"
+        catalog_id: "b7bddd39-f855-40f3-8d32-841abc1d03ab"
         offering_name: "blueprint-basic-example"
-        offering_version: "0.0.6"
+        offering_version: "0.0.1"
         offering_version_flavour_name: "ibm-resourcegroup"
     inputs:
       - name: provision
@@ -37,9 +37,9 @@ modules:
     source:
       source_type: catalog
       catalog:
-        catalog_id: "3e4ee65b-52c9-44a8-855a-3ea386185750"
+        catalog_id: "b7bddd39-f855-40f3-8d32-841abc1d03ab"
         offering_name: "blueprint-basic-example"
-        offering_version: "0.0.5"
+        offering_version: "0.0.1"
         offering_version_flavour_name: "ibm-storage"
     inputs:
       - name: cos_instance_name
